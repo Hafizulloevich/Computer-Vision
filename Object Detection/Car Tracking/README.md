@@ -8,15 +8,13 @@ Check out a live demonstration of this project on LinkedIn. Click the link below
 
 
 ✨ How It Works
-The magic happens in a few simple steps:
-
 Detect: YOLOv8 model finds all objects in a video frame/
 
 Track: The SORT (Simple Online and Realtime Tracking) algorithm is used to follow each vehicle and assign it a unique ID.
 
 Count: When a tracked vehicle crosses the line, I increment the counter!
 
-🛠️ Libraries & Technologies Used
+🛠️ Libraries Used
 This project is built with some amazing Python libraries. Here’s what you’ll need to get it running:
 
 OpenCV (cv2)
@@ -33,6 +31,6 @@ To install them, you can run:
 
 pip install numpy ultralytics opencv-python cvzone filterpy
 
-Note: sort.py and mask files shoudl be in the same directory as your app.py file, if you stored the files in different directory adjust the location on the code.
+Note: sort and mask files shoudl be in the same directory as your car_counter file, if you stored the files in different place adjust the location on the code.
 
 Happy coding!
